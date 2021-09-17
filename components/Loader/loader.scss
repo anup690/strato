@@ -1,0 +1,34 @@
+.loader {
+  border: 10px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 10px solid #2c96dd;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+}
+
+.popup {
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: 1px solid 'black';
+  background-color: rgba(0, 0, 0, 0.287);
+  align-items: center;
+  .popup_inner {
+    position: absolute;
+    height: 250px;
+    width: 305px;
+    left: 50%;
+    top: 50%;
+    border-radius: 20px;
+    background: rgba(255, 0, 0, 0);
+    align-items: center;
+  }
+}
