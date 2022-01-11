@@ -1,3 +1,11 @@
-.row{
-    margin: 2rem;
+.row {
+  margin: 2rem;
+}
+.col-centered {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.row-centered {
+    float: none;
+  margin: 0 auto;
 }
