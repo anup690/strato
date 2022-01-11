@@ -1,6 +1,6 @@
 import moment from "moment";
 import { CandleResult, OptionSymbolResult, TokenResult, IiflResponse, DerivativePair } from "../interfaces/interfaces";
-import { secretObj } from "./secret";
+// import { secretObj } from "./secret";
 
 function momentDate() {
   // return moment('13/09/2021','DD/MM/YYYY',true);//moment
@@ -20,7 +20,7 @@ function getExpiryDate(): string{
 }
 
 export const doLogin = async (): Promise<TokenResult> => {
-  const body = secretObj;
+  const body = "secretObj";
   const response: IiflResponse<TokenResult> = await fetch(
     "https://ttblaze.iifl.com/apimarketdata/auth/login",
     {
